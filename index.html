@@ -17,23 +17,37 @@ Select ONE Additional Feature to Add
 <html>
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
   <title>Project: Recipe book</title>
   <meta charset="utf-8">
+
   <style>
+    .text{
+      color:brown;
+      font-family: "Fascinate Inline", system-ui;}
+
+       table, th, td {
+            border: 1px solid;color:brown; }
+      
+        li{color: brown;}
+        p{color: rgb(136, 59, 20);}
+        
   </style>
 </head>
 
 <body>
 
-  <h1>____'s Recipe Book</h1>
+  <h1 class="text">Allie's Recipe Book</h1>
 
-  <h2>Contents:</h2>
+  <h2 class="text">Contents:</h2>
 
   <ol>
     <li><a href="?">Recipe #1</a></li>
   </ol>
 
-  <h2 id="?">Recipe #1</h2>
+  <h2 class="text">Recipe #1</h2>
 
   <ul>
     <li>Time: _</li>
@@ -43,8 +57,8 @@ Select ONE Additional Feature to Add
   <table>
     <thead>
       <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
+        <th class="text">Ingredients</th>
+        <th class="text">Quantity</th>
       </tr>
     </thead>
     <tbody>
@@ -55,7 +69,7 @@ Select ONE Additional Feature to Add
     </tbody>
   </table>
 
-  <p><strong>Step 1:</strong> Do something.
+  <p><strong class="text">Step 1:</strong> Do something.
   </p>
 
   <p><em>Source: <a href="?">Some recipes websites</a></em></p>
